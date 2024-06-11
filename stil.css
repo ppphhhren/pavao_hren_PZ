@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @font-face{
-  font-family:PavaoHren;
-  src:url(PavaoHren.tff);
+  font-family:"PavaoHren";
+  src:url("PavaoHren.tff");
 }
 
 @font-face {
