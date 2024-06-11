@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@font-face{
+  font-family:"PavaoHren";
+  src:url("PavaoHren.tff");
+}
+
+@font-face {
+    font-family: "Bernard MT Condensed V2";
+    src: url("https://db.onlinewebfonts.com/t/eceba41a00b4b94ea2965371c8dda96c.eot");
+    src: url("https://db.onlinewebfonts.com/t/eceba41a00b4b94ea2965371c8dda96c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/eceba41a00b4b94ea2965371c8dda96c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/eceba41a00b4b94ea2965371c8dda96c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/eceba41a00b4b94ea2965371c8dda96c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/eceba41a00b4b94ea2965371c8dda96c.svg#Bernard MT Condensed V2")format("svg");
+}
+
+body {
+  background-image: url("slike/pozadina.jpg");
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+p {
+  font-family:Helvetica, sans-serif;
+  font-size:25px;
+  color:black;
+  line-height: 50px;
+  width: 1000px;
+  background-color: white;
+  padding: 5px;
+}
+
+figcaption{
+  font-family:Helvetica, sans-serif;
+  font-size:25px;
+  color:black;
+  line-height: 50px;
+  width: 350px;
+  background-color: white;
+  padding: 5px;
+}
+
+h1{
+  font-family:Helvetica, sans-serif;
+  font-size:50px;
+  color:white;
+  line-height: 50px;
+  width: 680px;
+  background-color: black;
+  padding: 5px;
+}
+
+h2{
+  font-family:"PavaoHren", sans-serif;
+  font-size:100px;
+  color:black;
+  line-height: 50px;
+}
+
+p1{
+  font-family: "Bernard MT Condensed V2";
+  font-size:50px;
+  color:black;
+  line-height: 50px;
+  width: 680px;
+}
